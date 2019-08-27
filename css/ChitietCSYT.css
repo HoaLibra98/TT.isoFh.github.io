@@ -1,0 +1,762 @@
+@import url("https://www.fontify.me/wf/73cc7736f74e447dfe91644e4e38be44");
+@import url("https://www.fontify.me/wf/28ea2e32b70da0a2480848ba03cd6146");
+@font-face{
+  font-family: SFUITextBold;
+  src: url(SF-UI-Text-Bold.ttf)
+}
+@font-face{
+  font-family: SFUITextRegular;
+  src: url(SFUIText-Regular.ttf)
+}
+.box {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.hr {
+  width: 100%;
+  height: 2.3px;
+  background-color: #2073bb;
+}
+.tab-links {
+  font-family: Open Sans, sans-serif;
+  letter-spacing: -0.9px;
+  margin-bottom: 31px;
+  margin-top: 30px;
+}
+.tab-links > span {
+  width: 7px;
+  height: 15px;
+  margin-right: 7px;
+  display: inline-block;
+  background-color: #1a1aa2;
+}
+.tab-links a {
+  display: inline-block;
+  font-size: 15px;
+  opacity: 0.85;
+}
+.tab-links a:nth-child(2) {
+  font-weight: 645;
+  color: #646664;
+  letter-spacing: 0.3px;
+}
+.tab-links a:nth-child(3) {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 3px;
+}
+.tab-links a:last-child,
+.tab-links a:nth-child(3) {
+  opacity: 0.7;
+  letter-spacing: 0.6px;
+}
+.location-CSYT h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 20px 0px;
+}
+.location-CSYT span {
+  font-size: 23px;
+  font-family: monospace;
+  color: #404040;
+}
+.add-location-CY {
+  width: 100%;
+  height: auto;
+  border: 1px solid #98b4e3;
+}
+.add-location-CY iframe {
+  width: 100%;
+  height: 380px;
+}
+.evaluate p:first-child {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  color: #575757;
+}
+.evaluate p:nth-child(2) {
+  color: #f5a81e;
+}
+.evaluate p:nth-child(2) span {
+  color: #303030;
+}
+.content-CSYT {
+  margin-top: 34px;
+}
+.evaluate p:last-child {
+  color: #3f8cf1;
+  font-size: 15px;
+}
+.content-main-CSYT {
+  margin: 30px 0px;
+}
+.evaluate {
+  float: left;
+  width: 82%;
+}
+.logoBenhVien {
+  float: left;
+  width: 18%;
+}
+.logoBenhVien img {
+  width: 91px;
+  height: 90px;
+}
+
+.csyt-info {
+  margin-bottom: 7px;
+}
+.crossbar {
+  background-color: rgb(225, 225, 225);
+  height: 0.5px;
+  width: 100%;
+}
+.contact-SCYT {
+  padding: 30px 0px;
+}
+.contact-SCYT button {
+  border: none;
+  border-radius: 5px;
+}
+.contact-SCYT button:first-child,
+.contact-SCYT button:last-child {
+  padding: 11px 25px;
+  font-size: 19px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.contact-SCYT button:first-child {
+  color: #00987d;
+  background-color: white;
+  margin-right: 15px;
+}
+.contact-SCYT button img {
+  margin-right: 10px;
+}
+.contact-SCYT button:last-child {
+  color: white;
+  background-color: #0658a9;
+}
+.service p {
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.service p img {
+  margin-right: 15px;
+}
+.service p:last-child {
+  margin-bottom: 55px;
+}
+.service p:first-child {
+  color: #3755a8;
+}
+.service {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.7);
+}
+.padd-l {
+  padding-left: 0px !important;
+}
+.padd-r {
+  padding-right: 0px !important;
+}
+.row-r {
+  margin-right: 0px;
+}
+.description {
+  padding-top: 25px;
+}
+.description p {
+  margin-bottom: 7px;
+}
+.description p:first-child {
+  margin-top: 5px;
+}
+.detail-CSYT #myTab a,
+.detail-CSYT p {
+  color: #000;
+}
+#home {
+  padding: 0px;
+}
+.detail-CSYT ul {
+  margin: 25px 0px 15px 0px;
+}
+.detail-CSYT ul .active {
+  margin-right: 30px;
+  font-weight: 500;
+  border-bottom: 2px solid #2c60af !important;
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+.detail-CSYT ul li a {
+  padding: 0px;
+  font-size: 18px;
+}
+#myTabContent {
+  font-weight: 490;
+  font-size: 17px;
+}
+.nav-tabs {
+  border-bottom: 1px solid #c7c8ca !important;
+}
+.img-info-csyt div:first-child {
+  width: 75%;
+  float: left;
+  padding-right: 10px;
+  height: 100%;
+}
+.img-info-csyt div:last-child {
+  width: 25%;
+  float: left;
+}
+.img-info-csyt div:first-child img {
+  width: 100%;
+  /* height: 100%; */
+}
+.img-info-csyt div:last-child img {
+  width: 100%;
+  padding-bottom: 8px;
+  height: 190px;
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.Message-btn {
+  box-shadow: -0.1pt 3pt 16pt 0pt rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 151, 124);
+  padding: 13pt 12pt;
+  position: fixed;
+  bottom: 0;
+  right: 52pt;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 7pt;
+  border-top-right-radius: 7pt;
+}
+.Message-btn img {
+  margin-right: 10px;
+}
+#_mess {
+  position: fixed;
+  right: 21%;
+  bottom: 0;
+  width: 435pt;
+}
+#header-mess {
+  width: 100%;
+  background-color: rgb(0, 151, 124);
+  color: white;
+  font-size: 14pt;
+  letter-spacing: -0.07pt;
+  border-top-left-radius: 7pt;
+  border-top-right-radius: 7pt;
+  padding: 11pt 9pt;
+}
+#hide-mess {
+  float: left;
+  width: 41%;
+}
+#hide-mess i {
+}
+#title-mess {
+  float: left;
+  width: 59%;
+  text-align: center;
+  font-family: SFUITextRegular;
+}
+#content-mess {
+  width: 100%;
+  background-color: white;
+  border: 1pt solid rgb(225, 225, 225);
+  box-shadow: 0 0 10pt 0 rgba(21, 102, 86, 0.24);
+  height: 450px;
+}
+#content-mess .row {
+  height: 100%;
+}
+.content-left-mess {
+  height: 100%;
+  width: 100%;
+  border: 1pt solid rgb(225, 225, 225);
+}
+.content-left-mess > p {
+  font-size: 12pt;
+  color: rgb(15, 89, 167);
+  letter-spacing: -0.06pt;
+  font-family: SFUITextBold;
+  padding: 15pt 0 11pt 0;
+  text-align: center;
+  margin: 0;
+}
+
+.content-left-mess ul {
+  width: 100%;
+  margin-bottom: 0;
+}
+.content-left-mess ul li {
+  padding-left: 9px;
+  width: 100%;
+  border: 1pt solid rgb(225, 225, 225);
+  padding: 9pt 0px 9pt 9px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.content-left-mess ul li a {
+  font-size: 14pt;
+  letter-spacing: -0.07pt;
+  font-family: SFUITextRegular;
+  color: black;
+}
+.ichat-active {
+  background-color: #ececec;
+  font-weight: 600;
+}
+.ichat-active img {
+  background-color: white !important;
+}
+.content-left-mess ul li img {
+  width: 32pt;
+
+  height: 32pt;
+
+  background-color: rgb(235, 235, 235);
+
+  border: 1pt solid rgb(215, 215, 215);
+
+  display: inline-block;
+
+  border-radius: 50%;
+
+  margin-right: 6pt;
+}
+
+.content-left-mess span {
+  position: absolute;
+
+  top: 0;
+
+  right: 5pt;
+}
+.content-ri-mess {
+  width: 100%;
+  height: 100%;
+  /* padding-top: 15pt; */
+  position: relative;
+}
+.i-chat {
+  padding: 0 12pt 0 22pt;
+  overflow-y: scroll;
+  height: 87%;
+  padding-top: 15px;
+}
+.imess-I {
+  width: 100%;
+  text-align: right;
+  position: relative;
+}
+.imess-I span {
+  display: inline-block;
+  background-color: #2d60ae;
+  color: white;
+  padding: 5pt 4pt 7pt 2pt;
+  border-radius: 7pt 10pt 0pt 7pt;
+  text-align: left;
+  font-size: 12pt;
+}
+.imess-I img {
+  display: inline-block;
+  background-color: #9c9c9c;
+  position: absolute;
+  width: 11pt;
+  height: 11pt;
+  border-radius: 50%;
+  bottom: 0;
+  margin-left: 1px;
+}
+.imess-y {
+  width: 100%;
+  position: relative;
+}
+.imess-y span {
+  display: inline-block;
+  background-color: #ededed;
+  padding: 10px 6pt 50pt 8pt;
+  width: 100%;
+  border-radius: 10pt 9pt 8pt 0pt;
+}
+.imess-y img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #9c9c9c;
+  border-radius: 50%;
+  bottom: 0;
+  left: -26px;
+}
+.sent-mess {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
+.link-imgages {
+  float: left;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.input-mess {
+  float: left;
+  width: 84%;
+  padding: 0 5pt;
+}
+.input-mess input {
+  border: 1pt solid #d8d8d8;
+  border-radius: 21pt;
+  padding: 0 10px;
+  width: 100%;
+}
+.icon-sent {
+  float: left;
+  width: 8%;
+  text-align: center;
+}
+.icon-sent button {
+  background-color: white;
+  border: none;
+}
+
+@media (max-width: 1600px) {
+  #_mess {
+    right: 15.3%;
+    height: auto;
+  }
+}
+@media (max-width: 1440px) {
+  #_mess {
+    right: 11.3%;
+    height: auto;
+  }
+}
+@media (min-width: 1367px) {
+  .img-info-csyt div:first-child img {
+    height: 450px !important;
+  }
+  .img-info-csyt div:last-child img {
+    height: 225px !important;
+  }
+}
+@media (max-width: 1340px) {
+  #_mess {
+    right: 8.3% !important;
+    height: auto;
+  }
+}
+@media (max-width: 1280px) {
+  #_mess {
+    right: 6.3%;
+    height: auto;
+  }
+}
+@media (max-width: 1200px) {
+  #_mess {
+    right: 3.5%;
+    height: auto;
+  }
+  #content-mess {
+    height: 400px;
+  }
+  .Message-btn {
+    padding: 11pt 10pt;
+  }
+  .Message-btn img {
+    width: 36px;
+
+    height: 28px;
+  }
+}
+@media (max-width: 1199px) {
+  #_mess {
+    right: 11%;
+    height: auto;
+  }
+  #content-mess {
+    height: 376px;
+  }
+  .Message-btn {
+    padding: 11pt 10pt;
+  }
+  .Message-btn img {
+    width: 36px;
+    height: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  #_mess {
+    right: 4.3%;
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  #_mess {
+    right: 2.5%;
+    height: auto;
+  }
+  #content-mess {
+    height: 359px;
+  }
+}
+@media (max-width: 768px) {
+  #_mess {
+    right: 5.1%;
+    height: auto;
+  }
+  #content-mess {
+    height: 359px;
+  }
+  .Message-btn {
+    padding: 8pt 10pt;
+    right: 40px;
+  }
+  .Message-btn img {
+    width: 32px;
+    height: 27px;
+  }
+}
+@media (max-width: 800px) {
+  #_mess {
+    right: 7%;
+    height: auto;
+  }
+}
+@media (max-width: 601px) {
+  .content-left-mess ul li img {
+    width: 30px;
+
+    height: 30px;
+  }
+  .content-left-mess ul li a {
+    font-size: 16px;
+  }
+  #_mess {
+    right: 7%;
+    height: auto;
+    width: 79%;
+  }
+}
+@media (max-width: 720px) {
+  .content-left-mess ul li img {
+    width: 30px;
+
+    height: 30px;
+  }
+  .content-left-mess ul li a {
+    font-size: 16px;
+  }
+  #_mess {
+    right: 14.5%;
+    height: auto;
+    width: 71%;
+  }
+}
+@media (max-width: 414px) {
+  #_mess {
+    right: 3.1%;
+    width: 94%;
+  }
+  #content-mess {
+    height: 456px;
+  }
+  .Message-btn {
+    padding: 8pt 7pt;
+    right: 30px;
+  }
+  .Message-btn img {
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+  }
+  .imess-y span {
+    padding-bottom: 8pt;
+  }
+  .content-left-mess {
+    border: none;
+
+    height: auto;
+
+    height: 100%;
+  }
+  .content-left-mess > p {
+    padding: 6px 0px;
+  }
+  .content-left-mess ul li {
+    padding: 9px 0 9px 9px;
+  }
+  .i-chat {
+    border: 1pt solid rgb(225, 225, 225);
+
+    height: 79%;
+  }
+  .content-ri-mess {
+    height: 262px;
+  }
+  #hide-mess {
+    width: 10%;
+  }
+  #title-mess {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  #_mess {
+    right: 5.1%;
+    height: auto;
+  }
+  #content-mess {
+    height: 359px;
+  }
+  .Message-btn {
+    padding: 12pt 11pt;
+  }
+  .Message-btn img {
+    width: 38px;
+    height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .location-CSYT h2 {
+    font-size: 17px;
+  }
+  .location-CSYT span {
+    font-size: 16px;
+  }
+  .evaluate p:first-child {
+    font-size: 22px;
+  }
+  .contact-SCYT button:first-child {
+    color: #00987d;
+    background-color: white;
+    margin-right: 10px;
+  }
+  .contact-SCYT button:last-child {
+    color: white;
+    background-color: #0658a9;
+  }
+
+  .contact-SCYT button:first-child,
+  .contact-SCYT button:last-child {
+    padding: 10px 16px;
+    font-size: 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-SCYT button img {
+    width: 19px;
+    height: 20px;
+  }
+  .service {
+    font-size: 13px;
+  }
+  .cs320 {
+    padding: 0px;
+  }
+  .evaluate {
+    width: 69%;
+  }
+  .logoBenhVien {
+    width: 31%;
+    text-align: right;
+  }
+  #_mess {
+    right: 16%;
+  }
+  #content-mess {
+    height: 359px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .location-CSYT h2 {
+    font-size: 20px;
+  }
+  .img-info-csyt div:first-child img {
+    height: 300px !important;
+  }
+  .evaluate p:first-child {
+    font-size: 27px;
+  }
+  .contact-SCYT button:first-child {
+    margin-right: 10px;
+  }
+
+  .contact-SCYT button:first-child,
+  .contact-SCYT button:last-child {
+    padding: 10px 16px;
+    font-size: 19px;
+  }
+  .img-info-csyt div:last-child img {
+    height: 150px !important;
+  }
+  .cs320 {
+    padding: 0px;
+  }
+  .evaluate {
+    width: 65%;
+  }
+  .logoBenhVien {
+    width: 34%;
+    text-align: right;
+  }
+  #_mess {
+    right: 15.1%;
+
+    height: auto;
+  }
+  #content-mess {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1366px) {
+  .logoBenhVien img {
+    width: 100%;
+  }
+  .evaluate {
+    width: 80%;
+  }
+  .logoBenhVien {
+    width: 20%;
+  }
+  .img-info-csyt div:first-child img {
+    height: 400px !important;
+  }
+  .img-info-csyt div:last-child img {
+    height: 200px !important;
+  }
+  #_mess {
+    right: 9.3%;
+
+    height: auto;
+  }
+  #content-mess {
+    height: 400px;
+  }
+  .Message-btn {
+    padding: 12pt 11pt;
+  }
+  .Message-btn img {
+    width: 38px;
+
+    height: 30px;
+  }
+}

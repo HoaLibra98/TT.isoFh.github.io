@@ -1,0 +1,195 @@
+@font-face {
+  font-family: SFUITextBold;
+  src: url(SF-UI-Text-Bold.ttf);
+}
+@font-face {
+  font-family: SFUITextRegular;
+  src: url(SFUIText-Regular.ttf);
+}
+.col-l,
+.col-r {
+  float: left;
+  width: 50%;
+  padding: 0;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.DanhSachCSYT-content .container .row:last-child {
+  padding-bottom: 22pt;
+}
+.dsCSYT-item-img {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.dsCSYT-item-img img {
+  width: 109px;
+  height: 106px;
+  background-color: rgb(235, 235, 235);
+  display: inline-block;
+}
+.dsCSYT-item {
+  float: left;
+  width: 80%;
+  padding: 0 16px;
+}
+.dsCSYT-item p {
+  margin-bottom: 8px;
+}
+.dsCSYT-item p:first-child {
+  font-size: 15pt;
+  color: rgba(0, 0, 0);
+  font-weight: bold;
+  font-family: SFUITextBold;
+}
+.dsCSYT-item p:nth-child(2) i {
+  color: #f5a922;
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 10pt;
+}
+.dsCSYT-item p:nth-child(3) {
+  font-size: 10pt;
+  color: rgba(0, 0, 0);
+  font-family: SFUITextRegular;
+  margin-bottom: 8pt;
+}
+.dsCSYT-item button {
+  border-radius: 4pt;
+  font-family: "Myriad Pro Regular";
+}
+.dsCSYT-item button:nth-child(4) {
+  background-color: white;
+  color: rgb(0, 151, 124);
+  font-size: 14pt;
+  padding: 6px 10px;
+  border: 1pt solid rgb(0, 151, 124);
+}
+.dsCSYT-item button img {
+  margin-right: 9px;
+}
+.dsCSYT-item button:last-child {
+  background-color: rgb(14, 89, 167);
+  color: white;
+  padding: 6px 10px;
+  margin-left: 9pt;
+  font-size: 14pt;
+  border: none;
+}
+.timkiemcsyt-update {
+  width: 100%;
+}
+.title-timkiemcsyt-update {
+  width: 100%;
+  margin-top: 36pt;
+  margin-bottom: 26px;
+}
+.title-timkiemcsyt-update-l {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  float: left;
+  width: 60%;
+}
+.title-timkiemcsyt-update-r {
+  float: left;
+  text-align: right;
+  width: 40%;
+  height: 100%;
+}
+.title-timkiemcsyt-update-r a {
+  color: #1f72c5;
+  font-family: "Myriad Pro Regular";
+  font-size: 15pt;
+}
+.map-timkiemcsyt-update {
+  width: 100%;
+  border: 1pt solid #98b4e3;
+}
+.map-timkiemcsyt-update iframe {
+  width: 100%;
+  height: 450px;
+}
+.csyt-update-searchfast > a {
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #00987d;
+  color: #ffff;
+  font-family: "Myriad Pro Regular";
+  padding: 5px 15px;
+  border-radius: 15pt;
+  margin-top: 10px;
+}
+@media (max-width: 1366px) {
+  .dsCSYT-item p:first-child {
+    font-size: 12pt;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .dsCSYT-item-img img {
+    width: 91px;
+    height: 91px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .dsCSYT-item-img {
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .dsCSYT-item {
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .title-timkiemcsyt-update-l {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .col-l,
+  .col-r {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .title-timkiemcsyt-update-l {
+    font-size: 21px;
+  }
+  .title-timkiemcsyt-update-l {
+    float: none;
+    width: 100%;
+  }
+  .title-timkiemcsyt-update-r {
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 520px) {
+  .dsCSYT-item-img {
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  .dsCSYT-item {
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .title-timkiemcsyt-update-l {
+    font-size: 19px;
+  }
+  .csyt-update-searchfast a {
+    font-size: 14px;
+  }
+}

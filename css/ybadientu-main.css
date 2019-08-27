@@ -1,0 +1,16 @@
+@font-face {
+  font-family: SFUITextBold;
+  src: url(SF-UI-Text-Bold.ttf);
+}
+.ybadientu-menuInfo ul li a {
+    font-family: SFUITextBold;
+    font-size: 16px;
+    letter-spacing: -0.08px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    display: inline-block;
+  }
+.ybadientu-menuInfo ul li:hover .icon-mennu-yba
+{
+  color: rgb(48,96,173) !important;
+}
