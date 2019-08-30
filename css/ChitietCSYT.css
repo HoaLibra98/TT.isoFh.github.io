@@ -1,12 +1,11 @@
-@import url("https://www.fontify.me/wf/73cc7736f74e447dfe91644e4e38be44");
-@import url("https://www.fontify.me/wf/28ea2e32b70da0a2480848ba03cd6146");
+
 @font-face{
   font-family: SFUITextBold;
-  src: url(SF-UI-Text-Bold.ttf)
+  src: url(../Fontstyle/SF-UI-Text-Bold.ttf)
 }
 @font-face{
   font-family: SFUITextRegular;
-  src: url(SFUIText-Regular.ttf)
+  src: url(../Fontstyle/SFUIText-Regular.ttf)
 }
 .box {
   margin-top: 0px !important;

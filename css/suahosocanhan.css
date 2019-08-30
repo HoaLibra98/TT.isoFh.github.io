@@ -1,6 +1,6 @@
 @font-face{
   font-family:SFUITextRegular;
-  src:url(SFUIText-Regular.ttf)
+  src:url(../Fontstyle/SFUIText-Regular.ttf)
 }
 .box-gt input {
   opacity: 0;

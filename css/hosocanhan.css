@@ -1,15 +1,15 @@
 
 @font-face{
   font-family: SFUITextBold;
-  src:url(SF-UI-Text-Bold.ttf);
+  src:url(../Fontstyle/SF-UI-Text-Bold.ttf);
 }
 @font-face{
   font-family: SFUITextRegular;
-  src: url(SFUIText-Regular.ttf);
+  src: url(../Fontstyle/SFUIText-Regular.ttf);
 }
 .ybadientu-menuInfo ul li a {
   font-family: SFUITextBold;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: -0.08px;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;

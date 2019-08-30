@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style_e.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+    <link rel="stylesheet" href="css/Datkham.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="Script/jquery-3.4.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid" style="padding: 0">
+        <div class="container">
+            <header class="clear-fix">
+                <div class="logo">
+                    <img src="images/layer595.png" alt="logo" title="Logo">
+                </div>
+                <nav id="panel">
+                    <ul class="clear-fix">
+                        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+                        <li><a href="ChitietCSYT.html"><img src="images/address.png" alt=""
+                                    style="font-size: 15px;color: rgb(48 96 173);font-weight: 800;">Cơ sở y tế</a>
+                        </li>
+                        <li><a href="#"><img src="images/icThuoc.png" alt="" style="width:25px;height:23px;">Thuốc</a>
+                        </li>
+                        <li><a href="#"><img src="images/product.png" alt="" style="width:22px;height:24px;">Đặt
+                                khám</a>
+                        </li>
+                        <li><a href="ybadientu.html"><img src="images/document.png" alt=""
+                                    style="width:17px;height:23px;">Y bạ điện
+                                tử</a></li>
+
+
+                        <li class="menulogin">
+                            <a href="#"
+                                style="font-weight: normal;
+                            font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';">Đăng
+                                nhập</a>
+                            <span style="font-size: 15px;color: rgb(48 96 173);font-weight: 600;opacity: 0.7;">|</span>
+                            <a href="#"
+                                style="font-weight: normal;
+                            font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';">Đăng
+                                ký</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div class="_nav" id="flip">
+                    <i class="fas fa-bars" onclick="openNav()" style="cursor: pointer;"></i>
+                </div>
+            </header>
+        </div>
+        <div class="hr"></div>
+        <div class="container">
+            <div class="datkham-search">
+                <input type="text" name="" id="" placeholder="Tìm kiếm CSYT, Chuyên khoa, bác sỹ">
+                <button><img src="images/datkham-search.png"></button>
+            </div>
+            <div class="assets clear-fix">
+                <div class="assets-left">
+                    <img src="images/ad1.png" alt="">
+                </div>
+                <div class="assets-right">
+                    <img src="images/ad2.png" alt="">
+                </div>
+            </div>
+            <div class="datkham-chuyenkhoa">
+                <div class="title-dk-chuyenkhoa">
+                    Các chuyên khoa <span><a href="#">(Xem tất cả)</a></span>
+                </div>
+                <div class="content-dk-chuyenkhoa clear-fix">
+                    <div class="item-dk-chuyenkhoa">
+                        <div></div>
+                        <img src="images/nhakhoa.jpg" alt="">
+                        <span>Nha khoa</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-timmach.jpg" alt="">
+                        <span>Tim mạch</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-noitietto.jpg" alt="">
+                        <span>Nội tiết</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-taimuihong.jpg" alt="">
+                        <span>Tai mũi họng</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-ungbuou.jpg" alt="">
+                        <span>Ung bướu</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/nhakhoa.jpg" alt="">
+                        <span>Nhi khoa</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-timmach.jpg" alt="">
+                        <span>Ung bướu</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-noitietto.jpg" alt="">
+                        <span>Thần kinh</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                            <div></div>
+                        <img src="images/datkham-taimuihong.jpg" alt="">
+                        <span>Tim mạch</span>
+                    </div>
+                    <div class="item-dk-chuyenkhoa">
+                        
+                        <img src="images/datkham-khamall.jpg" alt="">
+                       <span> Xem tất cả</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="datkham-csyt">
+                <div class="title-dk-csyt">
+                    Các cơ sở y tế <span><a href="#">(Xem tất cả)</a></span>
+                </div>
+                <div class="content-dk-csyt clear-fix">
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Bạch mai</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Đại học Y Hà Nội</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện mắt Trung Ương</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Da liễu Trung Ương</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Bạch mai</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Hồng Hà</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Da liễu Trung Ương</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Bạch mai</span>
+                    </div>
+                    <div class="item-dk-csyt">
+                        <span></span>
+                        <span>Bệnh viện Hồng Hà</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="datkham-ldoctor">
+                <div class="title-dk-ldoctor">
+                    Các bác sĩ <span><a href="#">(Xem tất cả)</a></span>
+                </div>
+                <div class="content-dk-ldoctor clear-fix">
+                    <div class="item-dkldoctor clear-fix">
+                        <div class="img-dk-ldoctor">
+                            <img src="images/doctor1.PNG" alt="">
+                        </div>
+                        <div class="info-doctor">
+                            <p>VŨ ĐỨC HÙNG</p>
+                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            <p>Phó khoa bệnh viện Đại học Y Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="item-dkldoctor clear-fix">
+                        <div class="img-dk-ldoctor">
+                            <img src="images/doctor4.PNG" alt="">
+                        </div>
+                        <div class="info-doctor">
+                            <p>Trương Hữu Công</p>
+                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            <p>PSG. chuyên khoa răng hàm mặt bệnh Viện Bạch Mai</p>
+                        </div>
+                    </div>
+                    <div class="item-dkldoctor clear-fix">
+                        <div class="img-dk-ldoctor">
+                            <img src="images/doctor2.PNG" alt="">
+                        </div>
+                        <div class="info-doctor">
+                            <p>Trần Công Hoan</p>
+                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            <p>PSG.chuyên khoa răng hàm mặt bệnh Viện Bạch Mai</p>
+                        </div>
+                    </div>
+                    <div class="item-dkldoctor clear-fix">
+                        <div class="img-dk-ldoctor">
+                            <img src="" alt="">
+                        </div>
+                        <div class="info-doctor">
+                            <p>Vương Đức Hùng</p>
+                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            <p>PSG.chuyên khoa răng hàm mặt phòng khám nụ cười xinh</p>
+                        </div>
+                    </div>
+                    <div class="item-dkldoctor clear-fix">
+                        <div class="img-dk-ldoctor">
+                            <img src="images/doctor3.PNG" alt="">
+                        </div>
+                        <div class="info-doctor">
+                            <p>Trần Hà Giang</p>
+                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            <p>Phó khoa bệnh viện Đại học Y Hà Nội</p>
+                        </div>
+                    </div>
+                    <div class="item-dkldoctor clear-fix">
+                        <div class="img-dk-ldoctor">
+                            <img src="images/doctor6.PNG" alt="">
+                        </div>
+                        <div class="info-doctor">
+                            <p>Trương Hữu Công</p>
+                            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            <p>PSG.chuyên khoa răng hàm mặt bệnh Viện Bạch Mai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="clear-fix" class="fot">
+            <div class="contact">
+                <div class="img-contact">
+                    <div class="info-contact">
+                        <div class="title-contact">
+                            Liên Hệ
+                        </div>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>B15, DT1, Khu đô thị mới Trung Văn, Nam từ Liêm Hà Nội</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>(596) 358-7589</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            <span>isofHCares.com.vn</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>www.facebook.com/iSofHcare</span>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="add-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14898.39753531351!2d105.8007317!3d21.0086901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67b177acd7ded09a!2sISOFH!5e0!3m2!1svi!2s!4v1566007189138!5m2!1svi!2s"
+                    frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </footer>
+    </div>
+    <script src="Script/script.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,7 @@
+@font-face{
+  font-family: MyriadPro;
+  src:url(../Fontstyle/MYRIADPRO-BOLD.OTF);
+}
 .title-chitietthuoc {
   border-bottom: 1.5pt solid #5981be;
   margin-bottom: 15pt;
@@ -70,7 +74,7 @@
   font-size: 18pt;
   text-transform: uppercase;
   color: black;
-  font-family: "Myriad Pro";
+  font-family: MyriadPro;
   font-weight: bold;
   padding-bottom: 14pt;
   border-bottom: 1pt solid #dadada;

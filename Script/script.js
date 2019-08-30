@@ -11,3 +11,10 @@ function openNav() {
     document.getElementById("closebtn").style.display="none";
     document.getElementById("panel").style.transition="0.5s";
   }
+
+  var NotifiOpen = $( "header .notifi" );
+  var ic_arr = $(".ic-arr");
+$( "#ybadientu-tk" ).on( "click", function( event ) {
+  NotifiOpen.toggle();
+  ic_arr.toggle();
+});

@@ -1,10 +1,18 @@
 @font-face{
   font-family: SFUITextRegular;
-  src:url(SFUIText-Regular.ttf);
+  src:url(../Fontstyle/SFUIText-Regular.ttf);
 }
 @font-face{
   font-family: helveticaBold;
-  src:url(Helvetica\ Bold.ttf)
+  src:url(../Fontstyle/Helvetica\ Bold.ttf)
+}
+@font-face{
+  font-family: MyriaRegular;
+  src:url(../Fontstyle/SFUIText-Regular.ttf);
+}
+@font-face{
+  font-family: MyriaSemibold;
+  src:url(../Fontstyle/MyriadPro-Semibold.otf);
 }
 * {
   margin: 0;
@@ -84,7 +92,7 @@ header nav ul li img {
 }
 .navigate {
   position: absolute;
-  top: -48px;
+  top: -71px;
   left: 4%;
 }
 .navigate a {
@@ -93,15 +101,26 @@ header nav ul li img {
   letter-spacing: 0.66px;
   font-family: helveticaBold;
   padding: 18px 19px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 6pt !important;
+  border-top-right-radius: 6pt !important;
   background-color: rgb(48, 96, 173);
+}
+.active {
+  background-color: #ffffff !important;
+  color: rgb(48, 96, 173) !important;
 }
 .navigate a:first-child {
   margin-right: 0px;
 }
+.navigate a:hover{
+  color: rgb(48, 96, 173);
+  background-color: white;
+}
 .navigate a img {
   margin-right: 11px;
+}
+.navigate li:last-child{
+  margin-left: 5pt !important;
 }
 .tab-content {
   width: 100%;
@@ -113,13 +132,14 @@ header nav ul li img {
   width: 100%;
   font-size: 18px;
   letter-spacing: 0.54px;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
   margin-bottom: 10px;
   display:block;
+  color: black;
 }
 .search {
   width: 100%;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 .search form {
   width: 100%;
@@ -129,10 +149,10 @@ header nav ul li img {
   float: left;
   margin-right: 1%;
   font-size: 20px;
-  padding: 21px 28px;
+  padding: 19px 28px;
   color: rgba(0, 0, 0, 0.64);
   letter-spacing: 0.6px;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
@@ -144,7 +164,7 @@ header nav ul li img {
   color: white;
   background-color: rgb(212, 61, 33);
   font-family: helveticaBold;
-  padding: 21px 28px;
+  padding: 18px 28px;
   border: none;
 }
 .logo-search {
@@ -156,23 +176,54 @@ header nav ul li img {
 .search-fast a {
   display: inline-block;
   color: white;
-
   background: rgb(0, 151, 124);
-
   font-size: 16px;
-
   padding: 10px 17px;
-
   margin-right: 9px;
-
   border-radius: 5px;
-  font-family: 'Myriad Pro Regular';
+}
+.search_by_location {
+  font-size: 16px;
+  padding-left: 1%;
+  font-family: MyriaSemibold;
+  margin-bottom: 23px;
+}
+.search_by_location a {
+  color: #2c60af;
+}
+#ResSearch{
+  display: none;
+    position: absolute;
+    border: 1pt solid rgb(215,215,215);
+    width: 73.8%;
+    top: 138px;
+    box-shadow: 0.4pt 8pt 10pt 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+#ResSearch li{
+  margin-bottom: 0;
+  padding: 6pt 17px;
+}
+#ResSearch>li{
+  font-size: 16px;
+  color: rgb(74,144,226);
+}
+#ResSearch li img{
+  margin-right: 9px;
+}
+#dtSearch ul li{
+  display: none;
+}
+#dtSearch, #dtSearch ul li a{
+  width: 100%;
+  height: auto;
+  color: black;
 }
 .content {
   margin-top: 78px;
 }
 .title-content {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "PlayfairDisplay-Regular",sans-serif;
   font-size: 24px;
   letter-spacing: -0.12px;
   color: black;
@@ -323,33 +374,49 @@ footer {
   height: 100%;
 }
 
-@media (max-width: 1367px) and (min-width: 1200px) {
+@media (max-width: 1367px) {
   .bg-search {
     margin-top: -160px;
   }
   .navigate {
-    top: -45px;
+    top: -58px;
+  }
+  .navigate li:first-child a img{
+
+width: 11.5pt;
+
+}
+  .navigate li:last-child a img{
+    
+width: 18pt;
   }
   .navigate a {
-    padding: 16px 17px;
-    font-size: 18px;
+    padding: 14px 17px;
+    font-size: 16px;
   }
   .search {
     margin-bottom: 30px;
   }
   .search input {
-    padding: 14px 23px;
+    padding: 12px 19px;
     width: 84%;
     font-size: 18px;
   }
   .search button {
-    padding: 15px 5px;
+    padding: 12px 5px;
     width: 15%;
     font-size: 19px;
   }
   .search-fast a {
     padding: 9px 17px;
   }
+  #ResSearch{
+
+top: 120px;
+
+width: 76.4%;
+
+}
   .title-content {
     font-size: 23px;
   }
@@ -396,11 +463,11 @@ footer {
     padding: 28px 30px;
   }
   .navigate {
-    top: -44px;
+    top: -56px;
   }
   .navigate a {
-    padding: 15px 17px;
-    font-size: 18px;
+    padding: 13px 17px;
+    font-size: 17px;
   }
   .search {
     margin-bottom: 30px;
@@ -418,6 +485,12 @@ footer {
   .search-fast a {
     padding: 5px 17px;
     font-size: 15px;
+  }
+  #ResSearch{
+    
+top: 114px;
+    
+width: 75.9%;
   }
   .title-content {
     font-size: 20px;
@@ -502,7 +575,7 @@ footer {
     padding: 20px 25px;
   }
   .navigate {
-    top: -35px;
+    top: -53px;
     left: 6%;
   }
   .navigate a {
@@ -512,12 +585,12 @@ footer {
   .tab-panel label {
     font-size: 16.5px;
   }
-  .navigate a:first-child img {
-    width: 12px;
+  .navigate li:first-child a img {
+    width: 14px;
 
-    height: 17px;
+    height: 18px;
   }
-  .navigate a:last-child img {
+  .navigate li:last-child a img {
     width: 20px;
 
     height: 18px;
@@ -544,6 +617,13 @@ footer {
   .search-fast a {
     padding: 5px 17px;
     font-size: 14px;
+    margin-bottom: 5px;
+  }
+  #ResSearch{
+    
+top: 102px;
+    
+width: 74.3%;
   }
   .title-content {
     font-size: 20px;
@@ -597,7 +677,36 @@ footer {
     height: 383px !important;
   }
 }
-
+@media (max-width:767px){
+  #ResSearch{
+top: 85px;
+width: 72.5%;
+  }
+}
+@media (max-width:575px){
+  #ResSearch{
+    
+top: 85px;
+    
+width: 73.3%;
+  }
+}
+@media (max-width:537px){
+  #ResSearch{
+    
+top: 85px;
+    
+width: 72.4%;
+  }
+}
+@media (max-width:531px){
+  #ResSearch{
+    
+top: 85px;
+    
+max-width: 72.4%;
+  }
+}
 @media (max-width: 767px) and (min-width: 510px) {
   #panel {
     position: fixed;
@@ -640,22 +749,22 @@ footer {
     padding: 15px 20px;
   }
   .navigate {
-    top: -35px;
+    top: -47px;
     left: 6%;
   }
   .navigate a {
-    padding: 13px 17px;
+    padding: 11px 17px;
     font-size: 15px;
   }
   .tab-panel label {
     font-size: 15.5px;
   }
-  .navigate a:first-child img {
+  .navigate li:first-child a img {
     width: 12px;
 
     height: 17px;
   }
-  .navigate a:last-child img {
+  .navigate li:last-child a img {
     width: 20px;
 
     height: 18px;
@@ -683,8 +792,8 @@ footer {
     padding: 5px 17px;
     font-size: 14px;
     margin-bottom: 5px;
-    font-family: 'Myriad Pro Regular';
   }
+  
   .title-content {
     font-size: 20px;
   }
@@ -781,7 +890,7 @@ footer {
     padding: 13px 20px;
   }
   .navigate {
-    top: -28px;
+    top: -42px;
     left: 6%;
   }
   .navigate a {
@@ -792,11 +901,11 @@ footer {
     font-size: 14.5px;
     margin-bottom: 4px;
   }
-  .navigate a:first-child img {
+  .navigate li:first-child a img {
     width: 12px;
     height: 14px;
   }
-  .navigate a:last-child img {
+  .navigate li:last-child a img {
     width: 16px;
     height: 15px;
   }
@@ -823,7 +932,9 @@ footer {
     padding: 3px 17px;
     font-size: 13px;
     margin-bottom: 6px;
-    font-family: 'Myriad Pro Regular';
+  }
+  #ResSearch{
+    
   }
   .content{
 

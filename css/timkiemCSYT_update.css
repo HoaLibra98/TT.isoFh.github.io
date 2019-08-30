@@ -1,10 +1,18 @@
 @font-face {
   font-family: SFUITextBold;
-  src: url(SF-UI-Text-Bold.ttf);
+  src: url(../Fontstyle/SF-UI-Text-Bold.ttf);
 }
 @font-face {
   font-family: SFUITextRegular;
-  src: url(SFUIText-Regular.ttf);
+  src: url(../Fontstyle/SFUIText-Regular.ttf);
+}
+@font-face{
+  font-family: MyriaRegular;
+  src:url(../Fontstyle/SFUIText-Regular.ttf);
+}
+@font-face{
+  font-family: MyriaSemibold;
+  src:url(../Fontstyle/MyriadPro-Semibold.otf);
 }
 .col-l,
 .col-r {
@@ -56,7 +64,7 @@
 }
 .dsCSYT-item button {
   border-radius: 4pt;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
 }
 .dsCSYT-item button:nth-child(4) {
   background-color: white;
@@ -83,9 +91,11 @@
   width: 100%;
   margin-top: 36pt;
   margin-bottom: 26px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
 }
 .title-timkiemcsyt-update-l {
-  font-family: "Playfair Display", serif;
+  
   font-size: 24px;
   float: left;
   width: 60%;
@@ -98,7 +108,7 @@
 }
 .title-timkiemcsyt-update-r a {
   color: #1f72c5;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
   font-size: 15pt;
 }
 .map-timkiemcsyt-update {
@@ -114,7 +124,7 @@
   display: inline-block;
   background-color: #00987d;
   color: #ffff;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
   padding: 5px 15px;
   border-radius: 15pt;
   margin-top: 10px;
@@ -145,6 +155,9 @@
     padding-right: 20px;
     text-align: center;
   }
+  .title-timkiemcsyt-update{
+    font-size: 22px;
+  }
   .title-timkiemcsyt-update-l {
     font-size: 22px;
   }
@@ -157,6 +170,9 @@
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 25px;
+  }
+  .title-timkiemcsyt-update {
+    font-size: 21px;
   }
   .title-timkiemcsyt-update-l {
     font-size: 21px;
@@ -187,6 +203,9 @@
     text-align: center;
   }
   .title-timkiemcsyt-update-l {
+    font-size: 19px;
+  }
+  .title-timkiemcsyt-update{
     font-size: 19px;
   }
   .csyt-update-searchfast a {

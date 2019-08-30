@@ -1,7 +1,15 @@
 
 @font-face {
   font-family: SFUITextBold;
-  src: url(SF-UI-Text-Bold.ttf);
+  src: url(../Fontstyle/SF-UI-Text-Bold.ttf);
+}
+@font-face{
+  font-family: MyriaRegular;
+  src:url(../Fontstyle/SFUIText-Regular.ttf);
+}
+@font-face{
+  font-family: MyriaSemibold;
+  src:url(../Fontstyle/MyriadPro-Semibold.otf);
 }
 .hr {
   width: 100%;
@@ -10,6 +18,9 @@
 }
 ul {
   list-style-type: none !important;
+}
+header nav ul li:last-child {
+  margin-left: 37pt;
 }
 a {
   cursor: pointer;
@@ -45,7 +56,7 @@ a {
   color: white;
   letter-spacing: -0.6px;
   padding: 4px 4px 5px 3px;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
 }
 .ybadientu-content {
   width: 100%;
@@ -127,7 +138,7 @@ a {
   color: white;
   letter-spacing: -0.6px;
   padding: 6px 6px 5px 3px;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
   line-height: 1;
 }
 .ybadientu-menuInfo ul li p {
@@ -191,7 +202,7 @@ a {
   letter-spacing: 0.48px;
   color: rgba(0, 0, 0, 0.64);
   margin-bottom: 12px;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
 }
 .info-resSearch {
   border: 1px solid rgb(255, 255, 255);
@@ -211,7 +222,7 @@ a {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.64);
   letter-spacing: 0.54px;
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
   margin-bottom: 20px;
 }
 .button-resSearch-yba {
@@ -285,7 +296,7 @@ a {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.8);
   letter-spacing: 0.6px;
-  font-family: "Myriad Pro Semibold";
+  font-family: MyriaSemibold;
   margin-bottom: 17px;
 }
 .button-resSearch2-yba {
@@ -320,6 +331,9 @@ a {
   text-decoration: underline !important;
 }
 @media (max-width:1367px){
+  .ybadientu-menuInfo ul li a{
+    font-size: 15px !important;
+  }
   .ybadientu-title{
 
 font-size: 25px;

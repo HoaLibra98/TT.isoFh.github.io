@@ -1,21 +1,17 @@
 
+@font-face{
+  font-family: MyriaRegular;
+  src:url(../Fontstyle/SFUIText-Regular.ttf);
+}
+@font-face{
+  font-family: MyriaSemibold;
+  src:url(../Fontstyle/MyriadPro-Semibold.otf);
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.active {
-  background-color: #ffffff !important;
-  color: rgb(48, 96, 173) !important;
-}
-.search_by_location {
-  font-size: 16px;
-  padding-left: 1%;
-  font-family: "Myriad pro Semibold";
-  margin-bottom: 23px;
-}
-.search_by_location a {
-  color: #2c60af;
 }
 .search_by_location i {
   margin-right: 1%;
@@ -23,7 +19,7 @@
 .advertisement {
   width: 100%;
   margin-bottom: 100px;
-  margin-top: 45px;
+  margin-top: 60pt;
 }
 .info-advert-home {
   width: 100%;
@@ -37,7 +33,7 @@
 
   text-transform: uppercase;
 
-  font-family: Myriad Pro Semibold;
+  font-family: MyriaSemibold;
 
   margin-bottom: 20px;
   margin-left: 6px;
@@ -81,14 +77,14 @@
 
   letter-spacing: 0.72px;
 
-  font-family: "Myriad Pro Semibold";
+  font-family: MyriaSemibold;
 
   text-transform: uppercase;
 
   margin-bottom: 30px;
 }
 .content-partner {
-  font-family: "Myriad Pro Regular";
+  font-family: MyriaRegular;
 
   color: rgba(0, 0, 0, 0.64);
 

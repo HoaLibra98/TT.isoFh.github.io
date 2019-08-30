@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/home_isofh_care.css">
     <link rel="stylesheet" href="css/style_e.css">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -13,9 +12,33 @@
     <link rel="stylesheet" href="css/dsCSYT.css">
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto:700&display=swap" rel="stylesheet">
     <script src="Script/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
-
+<script>
+        $(document).ready(function () {
+            $("#namebv").focus(function () {
+                $("#ResSearch").show();
+            }),
+                $("#namebv").blur(function () {
+                    $("#ResSearch").hide();
+                });
+        });
+    
+        $(document).ready(function () {
+            $("#thuocLink a").focus(function(){
+                $("#thuocLink a img").attr('src', '../Isofh_care/images/thuoc_active.png');
+                $("#csytLink a img").attr("src", "../Isofh_care/images/layer6022.png");
+            }),
+            $("#csytLink a").focus(function(){
+                $("#thuocLink a img").attr('src', '../Isofh_care/images/icThuocW.png');
+                $("#csytLink a img").attr("src", "../Isofh_care/images/layer6011.png");
+            });
+        });
+    </script>
 <body>
     <div class="container-fluid" style="padding: 0">
         <div class="container">
@@ -64,36 +87,76 @@
         </div>
         <div class="container">
             <div class="bg-search">
-                <div class="navigate">
-                    <a class="active" href="#" data-toggle="tab"><img src="images/layer6011.png">CƠ SỞ Y TẾ</a>
-                    <a href="#" data-toggle="tab"><img src="images/icThuocW.png" alt="">THUỐC</a>
-                </div>
-                <div class="tab-content">
-                    <div class="tab-panel">
-                        <label>Tìm kiếm bệnh viện, phòng khám, cơ sở y tế...</label>
-                        <div class="search clear-fix">
-                            <form>
-                                <input type="text" name="" id="" value="Phường Mai Dịch" style="color: black;font-family: 'Arimo', sans-serif;
-                                font-family: 'Roboto', sans-serif;">
-                                <button class="btn-search">Tìm kiếm</button>
-                                <button class="logo-search"><i class="fas fa-search"></i></button>
-                            </form>
-
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs navigate">
+                        <li class="nav-item" id="csytLink">
+                            <a class="nav-link active" href="#csyt" data-toggle="tab"><img src="images/layer6011.png"
+                                    alt="">CƠ SỞ Y
+                                TẾ</a>
+                        </li>
+                        <li class="nav-item" id="thuocLink">
+                            <a class="nav-link" href="#thuoc" data-toggle="tab"><img src="images/icThuocW.png"
+                                    alt="">THUỐC</a>
+                        </li>
+                    </ul>
+    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="csyt" class="container tab-pane active">
+                            <div class="tab-panel">
+                                <label>Tìm kiếm bệnh viện, phòng khám, cơ sở y tế...</label>
+                                <div class="search clear-fix" style="margin-bottom: 10pt;">
+                                    <form>
+                                            <input type="text" name="" id="" value="Phường Mai Dịch" style="color: black;font-family: 'Arimo', sans-serif;
+                                            font-family: 'Roboto', sans-serif;">
+                                        <button class="btn-search">Tìm kiếm</button>
+                                        <button class="logo-search"><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <div class="search_by_location" style="margin-bottom: 10pt;">
+                                    <a href="#" style="cursor: pointer"><i class="fas fa-crosshairs"></i>Tìm cơ sở y tế
+                                        quanh
+                                        đây</a>
+                                </div>
+                                <div class="search-fast">
+                                    <a href="#">Trung tâm tim mạch</a>
+                                    <a href="#">Bệnh viện E Trung Ương</a>
+                                    <a href="#">Bệnh viện Phổi</a>
+                                    <a href="#">Bệnh viện K Trung Ương</a>
+                                </div>
+                                <div id="ResSearch" class="clear-fix">
+                                    <div>
+                                        <div id="dtSearch">
+    
+                                        </div>
+                                        <li><a href="#"><img src="images/vectorSmartObject.png" alt="">Xem tất cả kết quả
+                                                tìm kiếm</a></li>
+                                    </div>
+                                    <div>
+    
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="search_by_location">
-                            <a href="#" style="cursor: pointer"><i class="fas fa-crosshairs"></i>Tìm cơ sở y tế quanh
-                                đây</a>
-                        </div>
-                        <div class="search-fast">
-                            <a href="#">Trung tâm tim mạch</a>
-                            <a href="#">Bệnh viện E Trung Ương</a>
-                            <a href="#">Bệnh viện Phổi</a>
-                            <a href="#">Bệnh viện K Trung Ương</a>
+                        <div id="thuoc" class="container tab-pane fade">
+                            <div class="tab-panel">
+                                <label>Tìm tên thuốc, hoạt chất hoặc hãng thuốc</label>
+                                <div class="search clear-fix">
+                                    <input type="text" name="" id=""
+                                        placeholder="Nhập tên thuốc,hoạt chất hoặc hãng thuốc...">
+                                    <button class="btn-search">Tìm kiếm</button>
+                                    <button class="logo-search"><i class="fas fa-search"></i></button>
+                                </div>
+                                <div class="search-fast">
+                                    <a href="#">Panadol</a>
+                                    <a href="#">Tâm bình</a>
+                                    <a href="#">paracetamol</a>
+                                    <a href="#">vitamin B12</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
 
             <div class="DanhSachCSYT-content">
                 <div class="title-dsCSYT">
